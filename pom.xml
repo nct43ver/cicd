@@ -50,6 +50,7 @@
     </dependencies>
 
     <build>
+    	<plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -108,7 +109,7 @@
                         <image>openjdk:11-jdk-slim</image>
                     </from>
                 </configuration>
-            </plugin>
+            </plugin> 
         </plugins>
     </build>
 
