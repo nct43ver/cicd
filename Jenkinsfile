@@ -9,6 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+      	git 'https://github.com/nct43ver/cicd.git'
         withMaven(maven : 'mvn-3.6.3') {
           sh "mvn package"
         }
